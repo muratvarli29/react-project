@@ -1,5 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
+import styled, { styled } from 'styled-components';
+
 
 test('renders learn react link', () => {
   render(<App />);
